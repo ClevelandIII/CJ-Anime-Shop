@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="author" content="Cleveland and Jimmy Williams">
+    <meta name="description" content="A Japanese animation consumption site.">
+
+    <meta property="og:image" content="Url to an image">
+    <meta property="og:title" content="Title Here">
+    <meta property="og:description" content="short decription about your page">
+
+    <title>CJD's Anime Shop</title>
+    <link rel="stylesheet" href="check.css">
+    <link rel="shortcut icon" href="b.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <h1> CJD's Anime Shop</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href ="gallery.html">Gallery</a></li>
+            <li><a href ="checkout.html">Checkout</a></li>
+            <li><a href ="#">About Us</a></li>
+        </ul>
+
+        <form>
+            <input type="search" name="query" placeholder="Search the Website">
+            <input type="submit" value="search">
+        </form>
+
+    </nav>
+
+    <main>
+        <article>
+            <form action="data.json" method="POST">
+
+                <fieldset>
+                    <legend>What Anime/Manga would you like to purchase?</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="a" name="a" value="a">
+                            <label for="a"> Darling In The Franxx </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="b" name="a" value="a">
+                            <label for="a"> Attack On Titan </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="c" name="a" value="a">
+                            <label for="a"> Demon Slayer </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="d" name="a" value="a">
+                            <label for="a"> The Rising Of the Shield Hero </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="e" name="a" value="a">
+                            <label for="a"> Burn The Witch </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="f" name="a" value="a">
+                            <label for="a"> Danmachi </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="g" name="a" value="a">
+                            <label for="a"> Dragon Ball Super </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="h" name="a" value="a">
+                            <label for="a"> Neon Genisis Evengelion </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="i" name="a" value="a">
+                            <label for="a"> Full Metal Alchemist </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="j" name="a" value="a">
+                            <label for="a"> Jojo's Bizzare Adventure </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="k" name="a" value="a">
+                            <label for="a"> Komi Can't Communicate </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="l" name="a" value="a">
+                            <label for="a"> Konosuba </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="m" name="a" value="a">
+                            <label for="a"> Love Is War </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="n" name="a" value="a">
+                            <label for="a"> My Hero Acedemia </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="o" name="a" value="a">
+                            <label for="a"> The Promised Neverland </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="p" name="a" value="a">
+                            <label for="a"> One Piece </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="q" name="a" value="a">
+                            <label for="a"> Isekai Quartet </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="r" name="a" value="a">
+                            <label for="a"> Re: Zero </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="s" name="a" value="a">
+                            <label for="a"> Sword Art Online </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="t" name="a" value="a">
+                            <label for="a"> Tokyo Ghoul </label>
+                        </li>
+
+                    </ul>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Would you like any extra products? ($5 each)</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="Plain" name="Plain" value="Plain">
+                            <label for="Plain"> Banned Manga </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Pepperoni" name="Pepperoni" value="Pepperoni">
+                            <label for="Pepperoni"> Body Pillow </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Chicken" name="Chicken" value="Chicken">
+                            <label for="Chicken"> Anime/Manga Subscription </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Sausage" name="Sausage" value="Sausage">
+                            <label for="Sausage"> Sausage </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>User Information</legend>
+                    <ul>
+                        <li>
+                            <label for="Username">Recipiant Name:</label><input type="text" id="username" name="user.name"> 
+                        </li>
+                        <li>
+                            <label for="PW">Credit Card Information:</label><input type="password" id="PW" name="user.PW">
+                        </li>
+                    </ul>
+                    <button type="submit">Submit</button>
+                </fieldset>
+                </form>
+        </article>
+
+        <aside>
+            <h3> Banned Manga </h3>
+            <ul>
+                <li>177013</li>
+
+                <li>249483</li>
+
+                <li>321881</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p> You can contact us at 420-420-6969 if any issues occur. This shop is owned by Cleveland W., Jimmy W. and Devin D. Copyright (C) 2008-2020</p>
+    </footer>
+
+</body>
+</html>
