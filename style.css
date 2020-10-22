@@ -9,7 +9,7 @@ html{
     font-size: 10px;
     /* background color for the page */
     background-color: #333333;
-}
+} 
 
 body{
     /* center the body inside the html */
@@ -21,17 +21,17 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     /* Default header styles */
-    font-family: 'sonsie one', cursive;
+font-family: 'Calligraffitti', cursive;
 }
 
 p, input, li{
     /* default text styles */
-    font-family: 'open sans condensed', sans-serif;
+font-family: 'Calligraffitti', cursive;
 }
 
 p, input{
     /* default text styles */
-    font-family: 'open sans condensed', sans-serif;
+font-family: 'Calligraffitti', cursive;
     text-align: center;
 }
 

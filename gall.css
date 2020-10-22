@@ -1,3 +1,10 @@
+@media(max-width: 400px){
+    body{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
 html, body{
     /* reset styles */
     margin: 0;
@@ -21,17 +28,17 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     /* Default header styles */
-    font-family: 'sonsie one', cursive;
+font-family: 'Calligraffitti', cursive;
 }
 
 p, input, li{
     /* default text styles */
-    font-family: 'open sans condensed', sans-serif;
+font-family: 'Calligraffitti', cursive;
 }
 
 p, input{
     /* default text styles */
-    font-family: 'open sans condensed', sans-serif;
+font-family: 'Calligraffitti', cursive;
     text-align: center;
 }
 
@@ -159,7 +166,7 @@ footer{
 .starters article{
     display: flex;
     flex-basis: 22%;
-    flex-grow: 0;
+    flex-grow: 0; 
     flex-direction: column;
     text-align: center;
     padding: 2rem 1rem;
@@ -179,3 +186,204 @@ footer{
     justify-content: space-between;
     background-color: white;
 } 
+
+iframe{
+    width: 120%;
+    height: 0 auto;
+}
+}
+
+@media(min-width: 401px){
+    body{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+html, body{
+    /* reset styles */
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* common font for the page */
+    font-size: 10px;
+    /* background color for the page */
+    background-color: #333333;
+}
+
+body{
+    /* center the body inside the html */
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6{
+    /* Default header styles */
+font-family: 'Calligraffitti', cursive;
+}
+
+p, input, li{
+    /* default text styles */
+font-family: 'Calligraffitti', cursive;
+}
+
+p, input{
+    /* default text styles */
+font-family: 'Calligraffitti', cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #c00000;
+    text-shadow: 2px 2px 10px black;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+p, li{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+/* header layout */
+
+nav, article, aside, footer{
+    background-color: white;
+    padding: 5%;
+}
+
+nav{
+    height: 50px;
+    background-color: #c00000;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li{
+    /* center the list items */
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav form{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+}
+
+input{
+    font-size: 1.6rem;
+    height: 36px;
+}
+
+input[type="search"]{
+    flex: 3;
+}
+input[type="submit"]{
+    flex: 1;
+    margin-left: 1rem;
+    background: black;
+    border: 0;
+    color: white;
+}
+
+/* main layout */
+
+main{
+    display: flex;
+}
+
+article img{
+    width: 100%;
+}
+
+
+aside{
+    flex: 1;
+    margin-left: 10px;
+    background-color: #c00000;
+}
+
+aside li{
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.src{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.starters header{
+    display: none;
+}
+.starters article+article{
+    border-left: black;
+}
+.starters article{
+    display: flex;
+    flex-basis: 22%;
+    flex-grow: 0; 
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.starters .description{
+    margin-top: 1rem;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+.starters{
+    border-bottom: black;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: starters;
+    grid-column: 1/-1;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+} 
+
+iframe{
+    width: 120%;
+    height: 0 auto;
+}
+}
