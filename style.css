@@ -71,6 +71,7 @@ nav{
     background-color: #c00000;
     display: flex;
     margin-bottom: 10px;
+    position: sticky;
 }
 
 nav ul{
