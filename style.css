@@ -153,3 +153,23 @@ footer{
     width: 50%;
     height: 50%;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #333333; 
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c00000; 
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c00000; 
+}
