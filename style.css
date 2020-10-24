@@ -68,10 +68,12 @@ nav, article, aside, footer{
 
 nav{
     height: 50px;
+    border: solid 5px #333333;
     background-color: #c00000;
     display: flex;
     margin-bottom: 10px;
     position: sticky;
+    top: 0;
 }
 
 nav ul{
@@ -90,7 +92,7 @@ nav li{
 
 nav a {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -112,6 +114,7 @@ input{
 
 input[type="search"]{
     flex: 3;
+    border: solid 3px #333333;
 }
 input[type="submit"]{
     flex: 1;
@@ -144,6 +147,7 @@ aside li{
 footer{
     margin-top: 10px;
     text-align: center;
+    border: solid 5px #333333;
 }
 
 .src{
